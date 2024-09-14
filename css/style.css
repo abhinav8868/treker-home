@@ -1,0 +1,327 @@
+
+        * {
+            font-family: 'Poppins', sans-serif;
+
+        }
+
+        .a-hover:hover {
+            text-decoration: underline !important;
+        }
+
+        /* .nav-item:hover .nav-link:before {
+            content: "";
+            background-image: url("../images/logo-icon.svg");
+            background-size:cover;
+            background-repeat: no-repeat;
+            width: 20px;
+            height: 20px;
+            display: block;
+            margin-bottom: px;
+        } */
+
+        .link-hover:hover {
+            color: #1DC5CE !important;
+        }
+
+        .navbar-toggler {
+            border: none;
+        }
+
+        .btn-cart {
+            background-color: #EAF6F6;
+            border: none;
+            border-radius: 1px;
+        }
+
+        .bg-image {
+            background-image: url(../images/banner-bg-text.svg);
+            background-repeat: no-repeat;
+            /* background-size: contain;  */
+            background-size: 500px 200px;
+            background-position: center;
+        }
+
+        /* 
+        .text-exploring {
+            font-size: 72px;
+            font-weight: bold;
+        } */
+
+        .text {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: #464747;
+            word-spacing: 7px;
+        }
+
+        .blue-button {
+            border: 1px solid #1DC5CE !important;
+            background-color: #ffff !important;
+            padding: 13px 30px 13px 30px !important;
+            border-radius: 5px !important;
+            color: #1DC5CE !important;
+            font-weight: 400 !important;
+
+            &:hover {
+                background-color: #1DC5CE !important;
+                color: #ffff !important;
+
+            }
+        }
+
+        .blue-button:hover .blue-icon {
+            filter: brightness(0) invert(1) !important;
+        }
+
+         
+
+
+     
+
+.sticky {
+  background-color: #f8f9fa; /* Background color when sticky */
+}
+.cssanimation.bounce {
+    animation-duration: 6s !important; /* Override to make the bounce slower */
+}
+
+
+
+/* Modern Starts */
+.Modern_section {
+    position: relative;
+    padding: 100px 0px;
+}
+
+.Modern_section .bg-section {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 400%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+
+/* Modern End */
+
+
+/* Card Styling  Starts */
+
+.cards {
+    background: #fff !important;
+    border-radius: 5px !important;
+    overflow: hidden !important;
+    box-shadow: 0 30px 50px -25px rgba(0, 0, 0, 0.25) !important;
+    padding: 1em !important;
+    max-width: 300px !important;
+    margin: 0 auto !important;
+    position: relative !important;
+}
+
+.card-img-top {
+    width: 100% !important;
+    height: auto !important;
+    border-radius: 10px !important;
+}
+
+.price-badge {
+    position: absolute !important;
+    top: 30px !important;
+    left: 30px !important;
+    border-radius: 5px;
+    background-color: #1DC5CE;
+}
+
+/* .rating {
+    font-size: 0.9em !important;
+} */
+
+.rating i {
+    color: #FC8F00 !important;
+}
+
+a.text-dark.hover_color:hover {
+    color: #1DC5CE !important;
+}
+
+/* .zoom-effect {
+    transition: transform 0.5s ease !important;
+}
+
+.zoom-effect:hover {
+    transform: scale(0.0) !important;
+} */
+
+/* Slick Slider Styling */
+.slick-prev,
+.slick-next {
+    z-index: 5 !important;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    border-radius: 50% !important;
+    color: white !important;
+    width: 30px !important;
+    height: 30px !important;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+
+}
+
+.slick-next {
+    right: -8px !important;
+}
+
+.slick-prev {
+    left: 0 !important;
+}
+
+.slick-dots li button:before {
+    color: white !important;
+}
+
+.slick-dots {
+    bottom: -34px !important;
+}
+
+/* Responsive Design */
+@media only screen and (min-width: 768px) {
+    .slick-slide {
+        padding: 0 15px !important;
+    }
+}
+
+.cards .card-body .info {
+    position: relative;
+    background-color: #EAF6F6;
+    border-radius: 5px;
+    padding: 14px 10px 14px 16px;
+    margin: -29px 20px 0px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+a.card-title.info_title {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+a.card-title.info_title:hover {
+    color: #1DC5CE;
+}
+
+.d-flex.gap-2.view_details a {
+    text-decoration: none !important;
+    color: #10221B;
+}
+
+.d-flex.gap-2.view_details a:hover {
+    color: #1DC5CE;
+}
+
+.ms-auto.video_hover a {
+    color: #7D7D7D;
+}
+
+.ms-auto.video_hover a:hover {
+    color: #1DC5CE;
+}
+
+/* Card Styling  End*/
+
+/* Gallery Starts */
+
+
+
+/* Gallery End */
+
+/* Card Shop Starts */
+.card-custom {
+    position: relative;
+    overflow: hidden;
+    border: none !important;
+}
+
+.card-custom img {
+    transition: transform 0.3s ease;
+}
+
+.card-custom:hover img {
+    transform: scale(1.1);
+}
+
+.card-custom .card-body {
+    position: relative;
+    z-index: 1;
+}
+
+.card-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(173, 216, 230, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 2;
+}
+
+.card-custom:hover .card-overlay {
+    opacity: 1;
+}
+
+.card-overlay .btn {
+    margin: 0.5rem;
+}
+
+.card-overlay a {
+    background-color: #fff;
+    border: 1px solid #1DC5CE;
+    color: #1DC5CE;
+}
+
+.card-overlay a:hover {
+    background-color: #1DC5CE !important;
+    color: #fff !important;
+}
+
+.wishlist-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 3;
+    color: #1DC5CE;
+    font-size: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.wishlist-icon:hover {
+    background-color: #1DC5CE;
+    color: #fff;
+}
+
+.card-body .card-title {
+    text-decoration: none !important;
+    color: #111;
+}
+
+.card-body .card-title:hover {
+    color: #1DC5CE;
+    text-decoration: underline !important;
+}
+.border-none{
+    border: none !important;
+    outline: none;
+}
